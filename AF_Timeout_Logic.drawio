@@ -4,6 +4,63 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iPEt5NwJhfc2D8tFkDnD-1" target="iPEt5NwJhfc2D8tFkDnD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-1" value="af_rdd_anglefinding" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-2" value="saf_start_time = timing_helpers_get_time_usec()&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;saf_max_time =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;p_rdd_data-&amp;gt;af_max_time - AF_DS_RCS_TIME&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="190" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iPEt5NwJhfc2D8tFkDnD-4" target="iPEt5NwJhfc2D8tFkDnD-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-4" value="af_init_det_diagnostics_data(af_out_ptr)&lt;div&gt;&lt;p&gt;af_saturation_flag_ptr = 0&lt;/p&gt;&lt;p&gt;af_timeout_flag_ptr = 0&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="340" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-5" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;af_max_time= Frame time(50ms) - IPC time(buffer)(3ms) - Doppler and RDD processing&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="250" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-6" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;#define&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt; AF_DS_RCS_TIME &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;1125U&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-7" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;#define&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt; AF_DS_RCS_TIME &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;2375U&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-8" value="DownSeletcion Enable" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="297" y="248" as="sourcePoint" />
+            <mxPoint x="299" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iPEt5NwJhfc2D8tFkDnD-11" target="iPEt5NwJhfc2D8tFkDnD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-11" value="AF_TIMING_HELPERS_GET_TIME_USEC - saf_start_time &amp;gt; saf_max_time" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="540" width="460" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-12" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;/* SAF timeout check after stage 1  &lt;/span&gt;&lt;span style=&quot;color: rgb(220, 220, 170); background-color: light-dark(rgb(31, 31, 31), rgb(210, 210, 210));&quot;&gt;af_rdd_anglefinding_s1&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(106, 153, 85), rgb(91, 131, 73)); background-color: light-dark(rgb(31, 31, 31), rgb(210, 210, 210));&quot;&gt; */&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-14" value="af_saturation_flag_ptr = 1&lt;div&gt;num_af_det1 = p_af_det-&amp;gt;num_af_det&lt;/div&gt;&lt;div&gt;按num_af_det1的数量做截断赋值给p_af_det的stage_one&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="750" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-15" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;af_out_ptr&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;afb_det_stream&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;af_diagnostics_info&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;af_saturation_flag_ptr&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;) &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;1u&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="660" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-16" value="Y" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-19" value="N" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iPEt5NwJhfc2D8tFkDnD-20" value="af_rdd_anglefinding_s2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="552.5" width="170" height="57.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
